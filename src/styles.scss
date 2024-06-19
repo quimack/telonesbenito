@@ -1,1 +1,49 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0;
+}
+
+.flex-row {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+.w-100 {
+  width: 100%;
+}
+
+
+@font-face {
+  font-family: "Avenir";
+  src: url("./assets/fonts/avenir/Avenir-Black.otf") format("opentype"),
+    url("./assets/fonts/avenir/Avenir-BlackOblique.otf") format("opentype"),
+    url("./assets/fonts/avenir/Avenir-Book.otf") format("opentype"),
+    /* Agrega más formatos si es necesario */ /* Por ejemplo: */
+      url("./assets/fonts/avenir/Avenir-BookOblique.otf") format("opentype");
+}
+
+@font-face{
+    font-family: "ClashDisplay-Bold";
+    src: url("./assets/fonts/clash-display/ClashDisplay-Bold.otf")
+}
+@font-face{
+    font-family: "ClashDisplay-Semibold";
+    src: url("./assets/fonts/clash-display/ClashDisplay-Semibold.otf")
+}
+@font-face{
+    font-family: "ClashDisplay-Regular";
+    src: url("./assets/fonts/clash-display/ClashDisplay-Regular.otf")
+}
+@font-face{
+    font-family: "ClashDisplay-Medium";
+    src: url("./assets/fonts/clash-display/ClashDisplay-Medium.otf")
+}
+@font-face{
+    font-family: "ClashDisplay-Light";
+    src: url("./assets/fonts/clash-display/ClashDisplay-Light.otf")
+}
+@font-face{
+    font-family: "ClashDisplay-Extralight";
+    src: url("./assets/fonts/clash-display/ClashDisplay-Extralight.otf")
+}
