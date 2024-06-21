@@ -1,49 +1,127 @@
-body{
-    margin: 0;
+@import "./assets/styles/variables";
+
+body {
+  margin: 0;
 }
 
 .flex-row {
   display: flex;
 }
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+.align-items-end {
+  align-items: end;
+}
 
+.align-items-center {
+  align-items: center;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
 .justify-between {
   justify-content: space-between;
+}
+.flex-wrap{
+  flex-wrap: wrap;
 }
 .w-100 {
   width: 100%;
 }
+h1, h2, h3, h4, h5{
+  margin-block: 0;
+}
 
+.title {
+  font-size: $fs-title;
+  color: $color-elegant-black;
+  font-family: "ClashDisplay-Bold";
+  // margin-block: 2em;
+  max-width: 70%;
+  text-align: center;
+}
+
+button {
+  font-family: "ClashDisplay-Medium";
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
 
 @font-face {
-  font-family: "Avenir";
-  src: url("./assets/fonts/avenir/Avenir-Black.otf") format("opentype"),
-    url("./assets/fonts/avenir/Avenir-BlackOblique.otf") format("opentype"),
-    url("./assets/fonts/avenir/Avenir-Book.otf") format("opentype"),
-    /* Agrega más formatos si es necesario */ /* Por ejemplo: */
-      url("./assets/fonts/avenir/Avenir-BookOblique.otf") format("opentype");
+  font-family: "Avenir-Black";
+  src: url("./assets/fonts/avenir/Avenir-Black.otf") format("opentype");
+  /* Agrega más formatos si es necesario */ /* Por ejemplo: */
+}
+@font-face {
+  font-family: "Avenir-BlackOblique";
+  src: url("./assets/fonts/avenir/Avenir-BlackOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Book";
+  src: url("./assets/fonts/avenir/Avenir-Book.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-BookOblique";
+  src: url("./assets/fonts/avenir/Avenir-BookOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Heavy";
+  src: url("./assets/fonts/avenir/Avenir-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Light";
+  src: url("./assets/fonts/avenir/Avenir-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-LightOblique";
+  src: url("./assets/fonts/avenir/Avenir-LightOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Medium";
+  src: url("./assets/fonts/avenir/Avenir-Medium.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-MediumOblique";
+  src: url("./assets/fonts/avenir/Avenir-MediumOblique.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Oblique";
+  src: url("./assets/fonts/avenir/Avenir-Oblique.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-Roman";
+  src: url("./assets/fonts/avenir/Avenir-Roman.otf") format("opentype");
+}
+@font-face {
+  font-family: "Avenir-LightOblique";
+  src: url("./assets/fonts/avenir/Avenir-LightOblique.otf") format("opentype");
 }
 
-@font-face{
-    font-family: "ClashDisplay-Bold";
-    src: url("./assets/fonts/clash-display/ClashDisplay-Bold.otf")
+@font-face {
+  font-family: "ClashDisplay-Bold";
+  src: url("./assets/fonts/clash-display/ClashDisplay-Bold.otf");
 }
-@font-face{
-    font-family: "ClashDisplay-Semibold";
-    src: url("./assets/fonts/clash-display/ClashDisplay-Semibold.otf")
+@font-face {
+  font-family: "ClashDisplay-Semibold";
+  src: url("./assets/fonts/clash-display/ClashDisplay-Semibold.otf");
 }
-@font-face{
-    font-family: "ClashDisplay-Regular";
-    src: url("./assets/fonts/clash-display/ClashDisplay-Regular.otf")
+@font-face {
+  font-family: "ClashDisplay-Regular";
+  src: url("./assets/fonts/clash-display/ClashDisplay-Regular.otf");
 }
-@font-face{
-    font-family: "ClashDisplay-Medium";
-    src: url("./assets/fonts/clash-display/ClashDisplay-Medium.otf")
+@font-face {
+  font-family: "ClashDisplay-Medium";
+  src: url("./assets/fonts/clash-display/ClashDisplay-Medium.otf");
 }
-@font-face{
-    font-family: "ClashDisplay-Light";
-    src: url("./assets/fonts/clash-display/ClashDisplay-Light.otf")
+@font-face {
+  font-family: "ClashDisplay-Light";
+  src: url("./assets/fonts/clash-display/ClashDisplay-Light.otf");
 }
-@font-face{
-    font-family: "ClashDisplay-Extralight";
-    src: url("./assets/fonts/clash-display/ClashDisplay-Extralight.otf")
+@font-face {
+  font-family: "ClashDisplay-Extralight";
+  src: url("./assets/fonts/clash-display/ClashDisplay-Extralight.otf");
 }
